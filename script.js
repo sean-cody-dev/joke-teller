@@ -4,6 +4,7 @@ const audioElement = document.getElementById('audio');
 const jokeApiUrl = 'https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit';
 
 // Passing Joke to VoiceRSS API
+// FUTURE: save API key in proxy server
 function tellMe(joke) {
     VoiceRSS.speech({
         key: '8679f57a0f594ad580540cdaf5b13e7b',
